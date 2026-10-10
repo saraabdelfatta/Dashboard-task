@@ -1,0 +1,12 @@
+.card { display: grid; gap: var(--space-1); }
+.total { font-family: var(--font-serif); font-size: 16px; }
+.caption { font-size: 11px; color: var(--color-muted); margin-bottom: var(--space-2); }
+
+.chart { display: flex; gap: var(--space-2); height: 90px; }
+.axis { display: flex; flex-direction: column; justify-content: space-between; font-size: 9px; }
+.bars { flex: 1; display: flex; align-items: flex-end; justify-content: space-between; gap: var(--space-2); }
+.bar { flex: 1; background: var(--color-chart); border-radius: 3px; }
+
+/* Margin on the left lines the labels up under the first/last bar,
+   not under the y-axis numbers */
+.range { display: flex; justify-content: space-between; font-size: 9px; margin-left: 20px; }

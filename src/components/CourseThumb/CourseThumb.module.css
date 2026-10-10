@@ -1,0 +1,1 @@
+.thumb { display: block; flex-shrink: 0; border-radius: var(--radius-sm); object-fit: cover; }

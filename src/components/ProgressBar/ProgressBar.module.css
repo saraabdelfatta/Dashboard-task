@@ -1,0 +1,5 @@
+.wrap { display: grid; gap: 3px; min-width: 0; }
+.labels { display: flex; justify-content: space-between; font-size: 9px; color: var(--color-muted); }
+.labels strong { color: var(--color-text); font-weight: 600; }
+.track { height: 5px; border-radius: 3px; background: var(--color-track); overflow: hidden; }
+.fill { height: 100%; background: var(--color-success); border-radius: 3px; }

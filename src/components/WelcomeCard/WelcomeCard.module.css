@@ -1,0 +1,8 @@
+.welcome { padding: var(--space-5) var(--space-4); }
+.heading { font-family: var(--font-serif); font-size: 20px; font-weight: 500; margin-bottom: var(--space-1); }
+.message { font-family: var(--font-serif); font-size: 13px; color: var(--color-muted); }
+
+@media (min-width: 1024px) {
+  .welcome { padding: var(--space-5); }
+  .heading { font-size: 24px; }
+}

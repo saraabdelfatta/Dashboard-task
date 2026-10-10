@@ -1,0 +1,43 @@
+.bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--space-3) var(--space-4);
+  background: var(--color-surface);
+  border-bottom: 1px solid var(--color-border);
+}
+.title { display: none; font-family: var(--font-serif); font-size: 18px; font-weight: 400; }
+.actions { display: flex; align-items: center; gap: var(--space-2); }
+
+.iconButton {
+  display: grid;
+  place-items: center;
+  width: 32px;
+  height: 32px;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+}
+.profile {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-1) var(--space-3) var(--space-1) var(--space-1);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+}
+/* Placeholder circle: replace with the real photo via user.avatar */
+.avatar { width: 24px; height: 24px; border-radius: 50%; background: var(--color-placeholder); object-fit: cover; }
+
+.desktopOnly { display: none; }
+
+/* On phone the bar buttons have no border, like in the design */
+.phoneOnly { border-color: transparent; }
+
+@media (min-width: 1024px) {
+  .bar { background: var(--color-bg); border-bottom: 0; padding: var(--space-4) var(--space-5) 0; }
+  .logo, .phoneOnly { display: none; }
+  .title { display: block; }
+  .desktopOnly { display: grid; }
+  .profile.desktopOnly { display: flex; }
+}

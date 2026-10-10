@@ -1,0 +1,41 @@
+/* PHONE layout: two lines per course.
+   line 1: [course name]                [action]
+   line 2: [progress bar]               [status]  */
+.row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  grid-template-areas:
+    "course action"
+    "progress status";
+  gap: var(--space-2) var(--space-3);
+  align-items: center;
+  padding: var(--space-3) 0;
+  border-top: 1px solid var(--color-border);
+}
+.course { grid-area: course; }
+.progress { grid-area: progress; }
+.status { grid-area: status; justify-self: end; }
+.action { grid-area: action; justify-self: end; }
+
+.cell { min-width: 0; }
+.course { display: flex; align-items: center; gap: var(--space-2); }
+.names { display: grid; min-width: 0; }
+.title { font-size: 12px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.campus { font-size: 9px; color: var(--color-muted); }
+
+.continue, .view { background: none; border: 0; padding: 0; font-size: 12px; }
+.continue { color: var(--color-accent); font-weight: 600; }
+.view { color: var(--color-muted); text-decoration: underline; }
+
+/* DESKTOP layout: one line, four columns. --course-cols is defined on the
+   table container so the header uses the exact same widths. */
+@media (min-width: 640px) {
+  .row {
+    grid-template-columns: var(--course-cols);
+    grid-template-areas: "course progress status action";
+    padding: var(--space-3) var(--space-4);
+  }
+  .status, .action { justify-self: start; }
+  .action { justify-self: center; }
+  .continue, .view { font-size: 13px; }
+}

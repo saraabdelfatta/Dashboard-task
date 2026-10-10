@@ -1,0 +1,41 @@
+/* ==========================================================
+   Design tokens: the single place to change colors, fonts,
+   spacing and radius. Values were picked by eye from the
+   Figma screenshots; adjust them here and the whole app updates.
+   ========================================================== */
+:root {
+  /* Colors */
+  --color-bg: #f8f6f2;          /* page background (warm off-white) */
+  --color-surface: #ffffff;     /* cards */
+  --color-border: #ebe8e2;
+  --color-text: #1d1b19;
+  --color-muted: #8a867f;
+  --color-accent: #a4471f;      /* terracotta: campus buttons, "Continue" */
+  --color-nav-active: #efece6;
+  --color-track: #e6e4df;       /* empty part of progress bars */
+  --color-success: #15b765;     /* progress bar fill */
+  --color-success-bg: #dff5e8;
+  --color-success-text: #0f7a45;
+  --color-warning-bg: #fdebd3;
+  --color-warning-text: #b4600f;
+  --color-chart: #0b4d43;       /* bars in the hours chart */
+  --color-danger: #ef4136;
+  --color-placeholder: #ece9e3; /* grey boxes where images go */
+
+  /* Fonts. Serif for headings, sans for everything else. */
+  --font-serif: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+  --font-sans: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+
+  /* Spacing scale: use ONLY these so spacing stays consistent */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+
+  --radius-sm: 6px;
+  --radius: 10px;
+
+  --sidebar-width: 200px;
+}

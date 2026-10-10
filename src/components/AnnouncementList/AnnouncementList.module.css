@@ -1,0 +1,11 @@
+.header { display: flex; justify-content: space-between; align-items: center; margin-bottom: var(--space-3); }
+.heading { font-family: var(--font-serif); font-size: 14px; font-weight: 500; }
+.link { background: none; border: 0; padding: 0; font-size: 9px; color: var(--color-muted); }
+
+.list { display: grid; }
+.item { display: flex; gap: var(--space-3); padding: var(--space-3) 0; border-top: 1px solid var(--color-border); }
+.item:first-child { border-top: 0; padding-top: 0; }
+
+.image { width: 22px; height: 22px; flex-shrink: 0; border-radius: var(--radius-sm); background: var(--color-placeholder); }
+.title { font-size: 11px; font-weight: 600; }
+.text { font-size: 9px; color: var(--color-muted); }

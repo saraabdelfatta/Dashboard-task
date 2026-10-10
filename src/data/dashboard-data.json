@@ -1,0 +1,248 @@
+{
+  "user": {
+    "name": "Sophia Reynolds",
+    "avatarUrl": null,
+    "greetingQuote": "Keep pushing forward—every step gets you closer to your goals!"
+  },
+
+  "campuses": [
+    { "id": "english", "label": "English Campus" },
+    { "id": "math", "label": "Math Campus" },
+    { "id": "product", "label": "Product Campus" }
+  ],
+
+  "continueLearning": [
+    {
+      "id": "c-eng-intro",
+      "title": "English Excellence Introduction",
+      "campusId": "english",
+      "thumbnailUrl": null,
+      "lessonsCompleted": 22,
+      "lessonsTotal": 44
+    },
+    {
+      "id": "c-math-master",
+      "title": "Math Masterclass Introduction",
+      "campusId": "math",
+      "thumbnailUrl": null,
+      "lessonsCompleted": 43,
+      "lessonsTotal": 145
+    },
+    {
+      "id": "c-algebra",
+      "title": "Algebra",
+      "campusId": "math",
+      "thumbnailUrl": null,
+      "lessonsCompleted": 12,
+      "lessonsTotal": 63
+    }
+  ],
+
+  "courses": [
+    {
+      "id": "c-eng-intro",
+      "title": "English Excellence Introduction",
+      "campusId": "english",
+      "campusLabel": "English Campus",
+      "thumbnailUrl": null,
+      "lessonsCompleted": 6,
+      "lessonsTotal": 44,
+      "status": "in_progress"
+    },
+    {
+      "id": "c-math-master",
+      "title": "Math Masterclass Introduction",
+      "campusId": "math",
+      "campusLabel": "Math Campus",
+      "thumbnailUrl": null,
+      "lessonsCompleted": 120,
+      "lessonsTotal": 120,
+      "status": "completed"
+    },
+    {
+      "id": "c-algebra",
+      "title": "Algebra",
+      "campusId": "math",
+      "campusLabel": "Math Campus",
+      "thumbnailUrl": null,
+      "lessonsCompleted": 63,
+      "lessonsTotal": 63,
+      "status": "completed"
+    },
+    {
+      "id": "c-solving-eq",
+      "title": "Solving Equations & Inequalities",
+      "campusId": "math",
+      "campusLabel": "Math Campus",
+      "thumbnailUrl": null,
+      "lessonsCompleted": 63,
+      "lessonsTotal": 63,
+      "status": "completed"
+    },
+    {
+      "id": "c-eng-exam",
+      "title": "English Exam Expert",
+      "campusId": "english",
+      "campusLabel": "English Campus",
+      "thumbnailUrl": null,
+      "lessonsCompleted": 63,
+      "lessonsTotal": 63,
+      "status": "completed"
+    },
+    {
+      "id": "c-foundation",
+      "title": "The Foundation For Success",
+      "campusId": "product",
+      "campusLabel": "Product Campus",
+      "thumbnailUrl": null,
+      "lessonsCompleted": 0,
+      "lessonsTotal": 28,
+      "status": "not_started"
+    }
+  ],
+
+  "hoursSpent": {
+    "totalLabel": "Hours Spend",
+    "total": 50,
+    "axisMax": 50,
+    "days": [
+      { "label": "Sun 5", "hours": 30 },
+      { "label": "Mon 6", "hours": 44 },
+      { "label": "Tue 7", "hours": 21 },
+      { "label": "Wed 8", "hours": 50 },
+      { "label": "Thu 9", "hours": 40 },
+      { "label": "Fri 10", "hours": 24 },
+      { "label": "Sat 11", "hours": 35 }
+    ]
+  },
+
+  "announcements": [
+    {
+      "id": "a1",
+      "title": "New Course Added!",
+      "body": "Great news! A new Algebra course has been added to your Math package.",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-09-10T09:00:00Z"
+    },
+    {
+      "id": "a2",
+      "title": "Assignment Deadline Reminder",
+      "body": "Reminder: Your Biology essay is due in 2 days! Don't forget to submit it.",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-09-09T16:30:00Z"
+    },
+    {
+      "id": "a3",
+      "title": "Live Session This Thursday",
+      "body": "Your English Excellence tutor is hosting an open Q&A at 18:00. No booking needed.",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-09-08T11:15:00Z"
+    }
+  ],
+
+  "chats": {
+    "tabs": [
+      { "id": "english", "label": "English" },
+      { "id": "science", "label": "Science" }
+    ],
+    "groups": [
+      {
+        "id": "g-poetry",
+        "tabId": "english",
+        "name": "Poetry",
+        "avatarUrl": null,
+        "hasUnread": true,
+        "defaultExpanded": true,
+        "channels": [
+          { "id": "ch-poetry-one", "name": "Poetry One", "unreadCount": 0 },
+          { "id": "ch-poetry-fun", "name": "Poetry Fun", "unreadCount": 2 },
+          {
+            "id": "ch-poetry-assignments",
+            "name": "Poetry Assignments",
+            "unreadCount": 0
+          }
+        ]
+      },
+      {
+        "id": "g-essay",
+        "tabId": "english",
+        "name": "Essay",
+        "avatarUrl": null,
+        "hasUnread": false,
+        "defaultExpanded": false,
+        "channels": [
+          {
+            "id": "ch-essay-structure",
+            "name": "Essay Structure",
+            "unreadCount": 0
+          },
+          { "id": "ch-essay-feedback", "name": "Feedback", "unreadCount": 0 }
+        ]
+      },
+      {
+        "id": "g-reading",
+        "tabId": "english",
+        "name": "Reading",
+        "avatarUrl": null,
+        "hasUnread": true,
+        "defaultExpanded": false,
+        "channels": [
+          { "id": "ch-reading-list", "name": "Reading List", "unreadCount": 1 },
+          { "id": "ch-reading-club", "name": "Book Club", "unreadCount": 0 }
+        ]
+      },
+      {
+        "id": "g-writing",
+        "tabId": "english",
+        "name": "Writing",
+        "avatarUrl": null,
+        "hasUnread": false,
+        "defaultExpanded": true,
+        "channels": [
+          { "id": "ch-writing", "name": "Writing", "unreadCount": 2 },
+          { "id": "ch-events", "name": "Events", "unreadCount": 0 },
+          { "id": "ch-ideas", "name": "ideas", "unreadCount": 2 }
+        ]
+      },
+      {
+        "id": "g-lab",
+        "tabId": "science",
+        "name": "Lab Reports",
+        "avatarUrl": null,
+        "hasUnread": true,
+        "defaultExpanded": true,
+        "channels": [
+          { "id": "ch-lab-general", "name": "General", "unreadCount": 4 },
+          { "id": "ch-lab-safety", "name": "Safety", "unreadCount": 0 }
+        ]
+      },
+      {
+        "id": "g-biology",
+        "tabId": "science",
+        "name": "Biology",
+        "avatarUrl": null,
+        "hasUnread": false,
+        "defaultExpanded": false,
+        "channels": [
+          { "id": "ch-bio-cells", "name": "Cells", "unreadCount": 0 }
+        ]
+      }
+    ]
+  },
+
+  "navigation": [
+    { "id": "dashboard", "label": "Dashboard", "icon": "home", "href": "/" },
+    {
+      "id": "courses",
+      "label": "Courses",
+      "icon": "briefcase",
+      "href": "/courses"
+    },
+    {
+      "id": "assignments",
+      "label": "Assignments",
+      "icon": "briefcase",
+      "href": "/assignments"
+    }
+  ]
+}

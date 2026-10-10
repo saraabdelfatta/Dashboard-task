@@ -1,0 +1,34 @@
+/* PHONE first: everything in a single column. */
+.shell { min-height: 100vh; }
+.main { min-width: 0; }
+
+.content {
+  display: grid;
+  gap: var(--space-4);
+  padding: var(--space-4);
+}
+.primary, .secondary { display: grid; gap: var(--space-4); align-content: start; min-width: 0; }
+
+/* Campuses panel on top, the two course cards below. */
+.featured { display: grid; gap: var(--space-3); }
+
+/* On phone the two course cards sit side by side and scroll sideways if they don't fit. */
+.featuredCourses {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(230px, 1fr);
+  gap: var(--space-3);
+  overflow-x: auto;
+}
+
+/* Tablet: course cards get more room */
+@media (min-width: 640px) {
+  .featured { grid-template-columns: 180px 1fr; }
+}
+
+/* DESKTOP: sidebar + two-column content */
+@media (min-width: 1024px) {
+  .shell { display: flex; }
+  .main { flex: 1; }
+  .content { grid-template-columns: minmax(0, 1fr) 280px; padding: var(--space-5); }
+}
