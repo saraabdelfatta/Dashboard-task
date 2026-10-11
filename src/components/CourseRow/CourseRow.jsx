@@ -25,7 +25,7 @@ export default function CourseRow({ course, onOpen }) {
   return (
     <div className={styles.row} role="row">
       <div className={`${styles.cell} ${styles.course}`} role="cell">
-        <CourseThumb src={course.image} color={course.thumb} size={28} />
+        <CourseThumb src={course.image} color={course.thumb} size={32} />
         <div className={styles.names}>
           <span className={styles.title}>{course.title}</span>
           <span className={styles.campus}>{course.campus}</span>

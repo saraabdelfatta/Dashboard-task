@@ -15,7 +15,7 @@ import styles from "./CourseCard.module.css";
 export default function CourseCard({ course, onContinue }) {
   return (
     <Card as="article" className={styles.card}>
-      <CourseThumb src={course.image} color={course.thumb} size={60} />
+      <CourseThumb src={course.image} color={course.thumb} width={101} height={93} radius={8} />
       <div className={styles.body}>
         <h3 className={styles.title}>{course.title}</h3>
         <ProgressBar done={course.done} total={course.total} />

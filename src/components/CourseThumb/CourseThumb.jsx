@@ -14,8 +14,12 @@
  */
 import styles from "./CourseThumb.module.css";
 
-export default function CourseThumb({ src, color = "#ece9e3", size = 32, alt = "" }) {
-  const box = { width: size, height: size };
+export default function CourseThumb({ src, color = "#ece9e3", size = 32, width, height, radius, alt = "" }) {
+  const box = {
+    width: width ?? size,
+    height: height ?? size,
+    ...(radius !== undefined && { borderRadius: radius }),
+  };
   return src ? (
     <img className={styles.thumb} style={box} src={src} alt={alt} />
   ) : (

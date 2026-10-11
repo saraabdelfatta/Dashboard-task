@@ -7,7 +7,6 @@
 
   "campuses": [
     { "id": "english", "label": "English Campus" },
-    { "id": "math", "label": "Math Campus" },
     { "id": "product", "label": "Product Campus" }
   ],
 
@@ -16,7 +15,7 @@
       "id": "c-eng-intro",
       "title": "English Excellence Introduction",
       "campusId": "english",
-      "thumbnailUrl": null,
+      "thumbnailUrl": "Puplic\\images\\cources\\English.svg",
       "lessonsCompleted": 22,
       "lessonsTotal": 44
     },
@@ -24,7 +23,7 @@
       "id": "c-math-master",
       "title": "Math Masterclass Introduction",
       "campusId": "math",
-      "thumbnailUrl": null,
+      "thumbnailUrl": "Puplic\\images\\cources\\Math.svg",
       "lessonsCompleted": 43,
       "lessonsTotal": 145
     },
@@ -32,7 +31,7 @@
       "id": "c-algebra",
       "title": "Algebra",
       "campusId": "math",
-      "thumbnailUrl": null,
+      "thumbnailUrl": "Puplic\\images\\cources\\Algebra.svg",
       "lessonsCompleted": 12,
       "lessonsTotal": 63
     }
@@ -44,7 +43,7 @@
       "title": "English Excellence Introduction",
       "campusId": "english",
       "campusLabel": "English Campus",
-      "thumbnailUrl": null,
+      "thumbnailUrl": "Puplic\\images\\cources\\English.svg",
       "lessonsCompleted": 6,
       "lessonsTotal": 44,
       "status": "in_progress"
@@ -54,7 +53,7 @@
       "title": "Math Masterclass Introduction",
       "campusId": "math",
       "campusLabel": "Math Campus",
-      "thumbnailUrl": null,
+      "thumbnailUrl": "Puplic\\images\\cources\\Math.svg",
       "lessonsCompleted": 120,
       "lessonsTotal": 120,
       "status": "completed"
@@ -64,7 +63,7 @@
       "title": "Algebra",
       "campusId": "math",
       "campusLabel": "Math Campus",
-      "thumbnailUrl": null,
+      "thumbnailUrl": "Puplic\\images\\cources\\Algebra.svg",
       "lessonsCompleted": 63,
       "lessonsTotal": 63,
       "status": "completed"
@@ -74,7 +73,7 @@
       "title": "Solving Equations & Inequalities",
       "campusId": "math",
       "campusLabel": "Math Campus",
-      "thumbnailUrl": null,
+      "thumbnailUrl": "Puplic\\images\\cources\\Solving.svg",
       "lessonsCompleted": 63,
       "lessonsTotal": 63,
       "status": "completed"
@@ -84,20 +83,10 @@
       "title": "English Exam Expert",
       "campusId": "english",
       "campusLabel": "English Campus",
-      "thumbnailUrl": null,
+      "thumbnailUrl": "Puplic\\images\\cources\\EExamE.svg",
       "lessonsCompleted": 63,
       "lessonsTotal": 63,
       "status": "completed"
-    },
-    {
-      "id": "c-foundation",
-      "title": "The Foundation For Success",
-      "campusId": "product",
-      "campusLabel": "Product Campus",
-      "thumbnailUrl": null,
-      "lessonsCompleted": 0,
-      "lessonsTotal": 28,
-      "status": "not_started"
     }
   ],
 

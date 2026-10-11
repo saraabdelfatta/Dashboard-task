@@ -45,6 +45,9 @@ const normalizeData = (data) => {
     done: course.lessonsCompleted,
     total: course.lessonsTotal,
     thumb: course.thumbnailUrl ?? "#6b4a2b",
+    //this is responsible for the image of the course card, 
+    // if the thumbnailUrl is null, it will use the default color #6b4a2b
+    image: course.thumbnailUrl,    // ← NEW: the picture path
   }));
 
   const courses = data.courses.map((course) => ({
@@ -55,6 +58,7 @@ const normalizeData = (data) => {
     total: course.lessonsTotal,
     status: course.status === "in_progress" ? "in-progress" : course.status,
     thumb: course.thumbnailUrl ?? "#6b4a2b",
+     image: course.thumbnailUrl,    // ← NEW: the picture path
   }));
 
   const hoursSpent = {
