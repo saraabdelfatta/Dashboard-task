@@ -26,9 +26,16 @@
   border: 1px solid var(--color-border);
   border-radius: var(--radius-sm);
 }
-/* Placeholder circle: replace with the real photo via user.avatar */
-.avatar { width: 24px; height: 24px; border-radius: 50%; background: var(--color-placeholder); object-fit: cover; }
-
+/* profile of the user */
+.avatar {
+  width: 32px;
+  height: 32px;
+  box-sizing: border-box;
+  border: 2px solid #e5e0d7;
+  border-radius: 50%;
+  background: var(--color-placeholder);
+  object-fit: cover;
+}
 .desktopOnly { display: none; }
 
 /* On phone the bar buttons have no border, like in the design */
