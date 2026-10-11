@@ -83,6 +83,7 @@ const normalizeData = (data) => {
         .map((group) => ({
           id: group.id,
           title: group.name,
+          image: group.avatarUrl,
           hasUnread: group.hasUnread,
           defaultOpen: group.defaultExpanded,
           channels: group.channels.map((channel) => ({

@@ -26,7 +26,7 @@ export default function ChatGroup({ group }) {
         onClick={() => setOpen(!open)}
         aria-expanded={open}
       >
-        <CourseThumb size={16} />
+        <CourseThumb src={group.image} size={20} radius={2} />
         <span className={styles.title}>{group.title}</span>
         {group.hasUnread && <span className={styles.dot} aria-label="Unread messages" />}
         <Icon name={open ? "chevron-up" : "chevron-down"} size={12} />

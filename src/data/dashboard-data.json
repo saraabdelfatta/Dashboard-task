@@ -139,7 +139,7 @@
         "id": "g-poetry",
         "tabId": "english",
         "name": "Poetry",
-        "avatarUrl": null,
+        "avatarUrl": "Puplic\\images\\chats\\poetry-essay-chat-group.svg",
         "hasUnread": true,
         "defaultExpanded": true,
         "channels": [
@@ -156,7 +156,7 @@
         "id": "g-essay",
         "tabId": "english",
         "name": "Essay",
-        "avatarUrl": null,
+        "avatarUrl": "Puplic\\images\\chats\\poetry-essay-chat-group.svg",
         "hasUnread": false,
         "defaultExpanded": false,
         "channels": [
@@ -172,7 +172,7 @@
         "id": "g-reading",
         "tabId": "english",
         "name": "Reading",
-        "avatarUrl": null,
+        "avatarUrl": "Puplic\\images\\chats\\poetry-essay-chat-group.svg",
         "hasUnread": true,
         "defaultExpanded": false,
         "channels": [
@@ -184,7 +184,7 @@
         "id": "g-writing",
         "tabId": "english",
         "name": "Writing",
-        "avatarUrl": null,
+        "avatarUrl": "Puplic\\images\\chats\\poetry-essay-chat-group.svg",
         "hasUnread": false,
         "defaultExpanded": true,
         "channels": [
