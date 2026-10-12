@@ -1,7 +1,11 @@
 /* ==========================================================
    Design tokens: the single place to change colors, fonts,
    spacing and radius. Values were picked by eye from the
-   Figma screenshots; adjust them here and the whole app updates.
+   Figma; adjust them here and the whole app updates.
+   tokens.css is like the theme.dart file in flutter,
+    it is responsible for the design tokens of the app, like colors, fonts, spacing and radius.
+    while the spacing between the components is responsible for the layout of the app, 
+    whill be in the App.module.css file, which is like the scaffold.dart file in flutter.
    ========================================================== */
 :root {
   /* Colors */

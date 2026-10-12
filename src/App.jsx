@@ -11,9 +11,20 @@
  *
  * State: only `menuOpen` (phone drawer). Everything else is static data
  * from data/dashboard-data.json, since backend/auth/routing are out of scope.
+ * it is like the scaffold.dart file in flutter,
+ *  it is the main screen of the app, it is like the main.dart file in flutter.
  */
 
+
+//it is importing the useState hook from react, 
+// it is used to manage the state of the menuOpen variable, 
+// which is used to control the visibility of the sidebar menu.
 import { useState } from "react";
+//the componets of the screeen
+//in flutter, it is like importing the widgets from the widgets.dart file,
+//each component is like a widget in flutter, has it s own state and props, 
+// and is responsible for rendering a specific part of the UI.
+//it has own styles, and is responsible for rendering a specific part of the UI.
 import Sidebar from "./components/Sidebar/Sidebar";
 import TopBar from "./components/TopBar/TopBar";
 import WelcomeCard from "./components/WelcomeCard/WelcomeCard";
@@ -25,7 +36,9 @@ import AnnouncementList from "./components/AnnouncementList/AnnouncementList";
 import ChatList from "./components/ChatList/ChatList";
 import dashboardData from "./data/dashboard-data.json";
 import styles from "./App.module.css";
-
+//this function is responsible for normalizing the data from the dashboardData.json file,
+// it is like the data.dart file in flutter, it is responsible for normalizing the data from the json file,
+// and returning an object with the normalized data, which is used by the App component to render the UI.
 const normalizeData = (data) => {
   const user = {
     ...data.user,

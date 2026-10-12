@@ -1,4 +1,9 @@
-/* Global reset + base styles only. Everything else is scoped in CSS Modules. */
+/* Global reset + base styles only. Everything else is scoped in CSS Modules. 
+it is like 
+  a reset.css file but with some base styles for the app. 
+  It is imported in the main.jsx file.
+  it is jsut a style file that is imported in the main.jsx file.
+*/
 @import "./styles/tokens.css";
 
 *, *::before, *::after { box-sizing: border-box; }

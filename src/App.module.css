@@ -1,4 +1,10 @@
-/* PHONE first: everything in a single column. */
+/* PHONE first: everything in a single column. 
+it is the stule for the main screen of the app, 
+it holds the sidebar, topbar, and the main content of the app.
+it is like the scaffold.dart file in flutter,
+the diferernce between this files and tokens.css is that this file is responsible for the layout of the app,
+while the tokens.css file is responsible for the design tokens of the app, like colors, fonts
+*/
 .shell { min-height: 100vh; }
 .main { min-width: 0; }
 
